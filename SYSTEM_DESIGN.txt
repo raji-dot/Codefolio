@@ -1,0 +1,70 @@
+# CodeFolio — No-Code CMS Portfolio Builder for Engineers
+
+CodeFolio is a full-stack MERN SaaS ecosystem designed specifically for developers to dynamically compile and deploy web portfolios via dynamic backend-driven vanity URLs (`/:username`).
+
+---
+
+## 🛠️ Architecture & Core Dependencies
+
+### 1. Backend Server Framework (`/server`)
+* **Runtime Environment:** Node.js (v24+)
+* **Application Framework:** Express.js 
+* **Database Driver:** MongoDB Atlas via Mongoose Object Modeling
+* **Authentication Integrity:** JSON Web Tokens (JWT) & Bcryptjs password hashing
+* **Mail Dispatch Service:** Nodemailer SMTP transport delivery routing channels
+
+### 2. Client Application Interface (`/client`)
+* **Build Engine:** Vite + React.js
+* **Routing Pipeline:** React Router Dom (Dynamic lookup parameters extraction mapping)
+* **Metadata & Indexing Optimization:** HTML DOM Document injection tracking (Phase 3 Search Engine Optimization)
+
+---
+
+## 🚀 Installation & Local Environment Execution Guide
+
+Follow these sequential terminal commands to initialize the local build spaces:
+
+### Step 1: Backend Setup Configuration
+Open a separate terminal shell workspace instance, navigate inside the server layout path, install module layers, and launch the service process:
+```bash
+cd server
+npm install
+node server.js
+```
+*Make sure your `.env` configuration file contains your `MONGO_URI`, `JWT_SECRET`, and local execution `PORT` mapping flags.*
+
+### Step 2: Client Frontend Launch
+Open a second parallel terminal window layout panel, install bundle dependencies, and launch Vite's hot-reloaded development tracking environment server:
+```bash
+cd client
+npm install
+npm run dev
+```
+
+---
+
+## 📂 Structural Deliverables Index
+* `/server/server.js`: Central backend application entry node lifecycle orchestrator.
+* `/server/models/User.js`: Custom Mongoose configuration dynamic data schema modeling properties.
+* `/server/routes/profile.js`: API endpoints managing user profile hydration and secure nodemailer contact channels.
+* `/server/routes/auth.js`: Gateway router issuing uniform token verification signatures.
+* `/client/src/Context/AuthContext.jsx`: Central authorization tracking provider safeguarding state desynchronization loops.
+* `/client/src/Pages/Dashboard.jsx`: Split-screen content manager utilizing asynchronous safeguards for real-time live preview rendering.
+* `/client/src/Templates/TemplateEngine.jsx`: Advanced central dictionary lookups mapping logic dispatching portfolio templates based on user template preference indices.
+* `SYSTEM_DESIGN.md`: Detailed engineering report clarifying the architectural paradigms of vanity URI routing operations.
+
+---
+
+## 🎛️ System Design Routing Note: Dynamic Client vs Backend Custom Path Handling
+
+### Architectural Core Decision: Client-Side Parameter Extraction Strategy
+For resolving user public portfolios cleanly without configuration deployment clash parameters block patterns, this full-stack MERN application establishes target profile lookups utilizing **React Router client-side parameters mapping extraction matrix arrays (`/:username`)** within the client tier framework layer context setup.
+
+#### 1. Routing Priorities Handlers Execution Sequence
+All explicit static client routing parameters paths (such as `/login`, `/register`, and localized administrative system modules interfaces like `/dashboard`) execute within high priority levels at the top of the React Router matching block context assembly table arrays layout configuration. This isolates system modules securely.
+
+#### 2. Wildcard Parameter Dynamic Resolution
+The universal vanity wildcard slug parameters engine (`Route path="/:username"`) sits at the **absolute fallback base layer bottom level** of the router mounting table array execution lifecycle trace stack tree structure. This ensures that static system dashboards take strict routing precedence and never clash with a custom user identifier string.
+
+#### 3. Data Hydration Pipeline Loop Sync Handshake Operations
+When a client requests `http://localhost:5173/Raj`, React Router captures the route slug string key token array parameter parsing metrics via `useParams()`. The engine component triggers a lifecycle `useEffect` hook that invokes a centralized non-authenticated public tracking data payload query call directly across the target API endpoint router gateway system `http://localhost:5000/api/profile/public/Raj`. Mongoose extracts the corresponding document object layout configurations, dynamically binds the array payloads, and safely injects them into the chosen visual theme engine without structural collision.

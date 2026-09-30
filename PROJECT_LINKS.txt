@@ -1,0 +1,21 @@
+======================================================
+CODEFOLIO - DEVELOPER PORTFOLIO BUILDER CMS (MINOR PROJECT)
+======================================================
+
+1. PUBLIC GITHUB REPOSITORY LINK URL:
+   https://github.com 
+   (Note: Ensure repository visibility is set to PUBLIC in GitHub settings)
+
+2. LIVE WORKING PRODUCTION DEPLOYMENT INTERFACE URL:
+   https://vercel.app 
+   (Note: Full-stack application live deployed on cloud infrastructure)
+
+3. EVALUATORS CHECKING DEMO ROUTE PROFILES:
+   For quick testing and evaluation parameters, use the following pre-created sample profiles:
+   
+   - Sample Profile 1: https://vercel.app/demo1
+   - Sample Profile 2: https://vercel.app/demo2
+
+4. SOURCE ARCHITECTURE DIRECTORY STRUCTURE OVERVIEW:
+   - /client  --> React dashboard UI panel & live preview layout switcher components
+   - /server  --> Node.js / Express API gateway routing infrastructure & Mongoose database models
