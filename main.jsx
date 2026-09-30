@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
-import { AuthProvider } from './Context/AuthContext' // Double check if directory is "Context" or "context"
+import { AuthProvider } from './context/AuthContext' // Double check if directory is "Context" or "context"
 import App from './App'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
